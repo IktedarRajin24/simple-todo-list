@@ -1,8 +1,13 @@
-# React + Vite
+#Live Link: https://todo-list-by-rushdi.surge.sh/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Functionalities:
+* Click "+" button to add a task on the todo list.
+* On the add task modal enter all the parameters to submit or save the form.
+* "x mark icon" and "close" will close the modal.
+* there is a three dots by clicking on the three dots one can mark it as complete or incomplete, also delete a task from the list.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Used stacks:
+* Reactjs
+* Bootstrap 5
+* Scss
+* HeroIcon
