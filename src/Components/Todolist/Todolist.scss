@@ -1,0 +1,25 @@
+$primary-color: #36ab00;
+$secondary-color: #d5d5d5;
+.greenText {
+  color: $primary-color;
+}
+
+.addIcon {
+  fill: $primary-color;
+}
+#table {
+  width: 25%;
+}
+
+// -------------------------media query-----------------------------
+
+@media (max-width: 576px) {
+  #table {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) and (min-width: 576px) {
+  #table {
+    width: 75%;
+  }
+}

@@ -1,0 +1,22 @@
+input {
+  border: none;
+  border-bottom: 2px solid gainsboro;
+}
+:focus {
+  outline: none;
+}
+
+#modal {
+  width: 40%;
+}
+
+@media (max-width: 576px) {
+  #modal {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) and (min-width: 576px) {
+  #modal {
+    width: 75%;
+  }
+}
